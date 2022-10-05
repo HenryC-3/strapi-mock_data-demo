@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mock_articles",
+  "info": {
+    "singularName": "mock-article",
+    "pluralName": "mock-articles",
+    "displayName": "MockArticle"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

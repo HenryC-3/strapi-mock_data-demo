@@ -1,0 +1,32 @@
+{
+  "name": "strapi-fake-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.4.1",
+    "@strapi/plugin-users-permissions": "4.4.1",
+    "@strapi/strapi": "4.4.1",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f9224c2f-726b-4d45-84f3-dc3835154110"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
